@@ -1,6 +1,7 @@
 package com.naz1k1.entity;
 
 import com.mybatisflex.annotation.Table;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 

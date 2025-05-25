@@ -16,6 +16,4 @@ public class BaseEntity implements Serializable {
     private LocalDateTime createTime;
     private LocalDateTime updateTime;
     private int deleted;
-
-    private static final long serialVersionUID = 1L;
 }
