@@ -7,7 +7,24 @@ spring:
     password: YeKe1403483531.
     url: jdbc:mysql://localhost:3306/server?
     driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: 
+    database: 0
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        max-wait: -1ms
+  session:
+    store-type: redis
+    timeout: 1800
+    redis:
+      namespace: spring:session
 
 mybatis-flex:
   global-config:
     print-banner: false
+
