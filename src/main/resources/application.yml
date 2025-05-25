@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: root
+    password: YeKe1403483531.
+    url: jdbc:mysql://10.23.144.228:3306/server?
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis-flex:
+  global-config:
+    print-banner: false
