@@ -11,8 +11,8 @@ import java.time.LocalDateTime;
 public class BaseEntity implements Serializable {
     @Id(keyType = KeyType.Auto)
     private Long id;
-    private Long createdBy;
-    private Long updatedBy;
+    private Long createBy;
+    private Long updateBy;
     private LocalDateTime createTime;
     private LocalDateTime updateTime;
     private int deleted;
